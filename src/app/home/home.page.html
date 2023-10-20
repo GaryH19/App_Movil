@@ -1,21 +1,27 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Hola
+      Inicio de Sesión
     
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <h1>Login</h1>
+    <ion-item>
+      <ion-label position="floating">Usuario</ion-label>
+      <ion-input placeholder="Enter text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input placeholder="Enter text"></ion-input>
+    </ion-item>
+    <p>Olvide la contraseña</p>
+    <p>Crear usuario</p>
+    <ion-button color="success">Iniciar</ion-button>
+    
   </div>
+
 </ion-content>
